@@ -36,14 +36,7 @@ The application requires the following permissions to work:
 ## Screenshots
 Below are some screenshots of the application interface and features:
 
-### Start Screen
-<img src="images/1.jpg" alt="Start Screen" width="400">
-
-### Tracking Screen
-<img src="images/2.jpg" alt="Tracking Screen" width="400">
-
-### Distance Screen
-<img src="images/3.jpg" alt="Distance Screen" width="400">
+<div style="display: flex; justify-content: space-around;"> <img src="images/1.jpg" alt="Start Screen" width="300"> <img src="images/2.jpg" alt="Tracking Screen" width="300"> <img src="images/3.jpg" alt="Distance Screen" width="300"> </div>
 
 ## Installation
 To install the app on an Android device:
