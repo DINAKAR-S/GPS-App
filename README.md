@@ -1,3 +1,4 @@
+
 # GPS Tracking Android Application
 
 ## Overview
@@ -21,6 +22,7 @@ This project is an Android application that uses GPS to track the user's start a
 - **Libraries**: Android LocationManager, Android Manifest
 
 ## Implementation Details
+
 ### Permissions
 The application requires the following permissions to work:
 - **ACCESS_FINE_LOCATION**: For precise GPS tracking.
@@ -30,6 +32,18 @@ The application requires the following permissions to work:
 - **MainActivity.java**: Contains the logic for GPS tracking, distance calculation, and permission handling.
 - **activity_main.xml**: Defines the user interface with TextViews, Buttons, and an ImageView for the logo.
 - **AndroidManifest.xml**: Includes the required permissions and other configuration details.
+
+## Screenshots
+Below are some screenshots of the application interface and features:
+
+### Start Screen
+![Start Screen](images/1.jpg "Start Screen")
+
+### Tracking Screen
+![Tracking Screen](images/2.jpg "Tracking Screen")
+
+### Distance Screen
+![Distance Screen](images/3.jpg "Distance Screen")
 
 ## Installation
 To install the app on an Android device:
@@ -49,7 +63,7 @@ To install the app on an Android device:
 - **Background Tracking**: Enable GPS tracking in the background.
 
 ## Author
-- **Name**: Dinakar S
+- **Name**: Dinakar S  
 - **Register Number**: 21013
 
 ## License
@@ -64,6 +78,11 @@ GPS-Tracking-Android-App/
 |
 ├── doc/
 │   └── Documentation.pdf
+|
+├── images/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── 3.jpg
 |
 ├── screenshots/
 │   ├── start_screen.png
@@ -82,3 +101,4 @@ GPS-Tracking-Android-App/
 - Stack Overflow community for troubleshooting tips.
 - Google Maps API for potential future integration.
 
+---
