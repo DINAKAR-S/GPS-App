@@ -67,7 +67,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 GPS-Tracking-Android-App/
 |
 ├── apk/
-│   └── gps_tracking_app.apk
+│   └── app=debug.apk
 |
 ├── doc/
 │   └── Documentation.pdf
@@ -77,10 +77,6 @@ GPS-Tracking-Android-App/
 │   ├── 2.jpg
 │   └── 3.jpg
 |
-├── screenshots/
-│   ├── start_screen.png
-│   ├── tracking_screen.png
-│   └── distance_screen.png
 |
 ├── src/
 │   ├── MainActivity.java
