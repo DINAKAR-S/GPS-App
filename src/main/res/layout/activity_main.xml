@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Name TextView -->
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_below="@id/t1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Register Number TextView -->
+    <TextView
+        android:id="@+id/registerNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Number: "
+        android:layout_below="@id/nameView"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/amrit"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/registerNumberView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start GPS Service"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop GPS Service"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/distanceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: "
+        android:layout_below="@id/stopButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
