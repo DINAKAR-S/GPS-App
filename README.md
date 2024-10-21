@@ -37,13 +37,13 @@ The application requires the following permissions to work:
 Below are some screenshots of the application interface and features:
 
 ### Start Screen
-![Start Screen](images/1.jpg "Start Screen")
+<img src="images/1.jpg" alt="Start Screen" width="400">
 
 ### Tracking Screen
-![Tracking Screen](images/2.jpg "Tracking Screen")
+<img src="images/2.jpg" alt="Tracking Screen" width="400">
 
 ### Distance Screen
-![Distance Screen](images/3.jpg "Distance Screen")
+<img src="images/3.jpg" alt="Distance Screen" width="400">
 
 ## Installation
 To install the app on an Android device:
